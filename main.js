@@ -1,9 +1,9 @@
 $("#container").mousemove(function(e) {
-  parallaxIt(e, ".techo", -50);
-	parallaxIt(e, ".gradas", -50);
-	parallaxIt(e, ".estructura", -50);
-	parallaxIt(e, ".piso", -50);
-  parallaxIt(e, "img", -40);
+  parallaxIt(e, ".techo", -100);
+	parallaxIt(e, ".gradas", -100);
+	parallaxIt(e, ".estructura", -100);
+	parallaxIt(e, ".piso", -100);
+  parallaxIt(e, "img", -30);
 });
 
 function parallaxIt(e, target, movement) {
